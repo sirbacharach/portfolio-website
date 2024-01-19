@@ -1,0 +1,104 @@
+.main {
+  background-color: grey;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.title-flex-container {
+  display: flex;
+  flex-direction: row;
+  background: white;
+}
+
+.box {
+  height: 100px;
+  min-width: 100px;
+}
+
+.one {
+  border: solid black;
+  background: red;
+  flex-grow: 0;
+}
+
+.two {
+  border: solid black;
+  background: green;
+  flex-grow: 2;
+}
+
+.three {
+  border: solid black;
+  background: blue;
+}
+
+.header-content {
+  display: block;
+}
+
+nav {
+
+  background: #333;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  display: block;
+  padding: 7px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+nav li {
+  flex: 1 1 0;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+a.gh{
+  background: url(../assets/img/github-mark-white.png) no-repeat center;
+  background-size: 80%;
+}
+
+.social a{
+  text-indent: -10000px;
+}
+
+.social{
+  max-width: 40px;
+}
+
+nav ul.social{
+  flex: 1 1 0;
+}
+
+@media screen and (min-width: 768px) {
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  nav li {
+    flex: none;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+}
