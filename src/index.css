@@ -20,15 +20,30 @@
 }
 
 .one {
+  align-items: center;
   border: solid black;
   background: red;
   flex-grow: 0;
+  text-align: center;
+  color: #fff;
+  display: block;
+  padding: 7px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
 }
 
 .two {
+  align-items: center;
   border: solid black;
   background: green;
-  flex-grow: 2;
+  flex-grow: 0;
+  text-align: center;
+  color: #fff;
+  display: block;
+  padding: 7px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .three {
@@ -36,20 +51,41 @@
   background: blue;
 }
 
-.header-content {
+div h1{
+  text-decoration: none;
+  text-align: start;
+  color: #fff;
   display: block;
+  padding: 7px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+div h2{
+  text-decoration: none;
+  text-align: start;
+  color: #fff;
+  display: block;
+  padding: 7px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.header-content {
+  /* display: block; */
 }
 
 nav {
-
+  display: flex;
   background: #333;
+  justify-content: space-between
 }
 
 nav ul {
   list-style-type: none;
   display: flex;
   padding: 0;
-}
+  }
 
 nav a {
   text-decoration: none;
@@ -69,20 +105,20 @@ nav a:hover {
   background-color: #555;
 }
 
-a.gh{
+a.gh {
   background: url(../assets/img/github-mark-white.png) no-repeat center;
   background-size: 80%;
 }
 
-.social a{
+.social a {
   text-indent: -10000px;
 }
 
-.social{
+.social {
   max-width: 40px;
 }
 
-nav ul.social{
+nav ul.social {
   flex: 1 1 0;
 }
 
@@ -93,12 +129,11 @@ nav ul.social{
   }
 
   nav li {
-    flex: none;
+    flex: 1 1 0;
   }
 
   nav {
     display: flex;
     justify-content: space-between;
   }
-
 }
