@@ -1,5 +1,7 @@
 .main {
   background-color: grey;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-variant: normal;
 }
 
 .wrapper {
@@ -11,47 +13,44 @@
 .title-flex-container {
   display: flex;
   flex-direction: row;
-  background: white;
+  background: grey;
+  flex-wrap: wrap;
 }
 
 .box {
-  height: 100px;
-  min-width: 100px;
+  height: 15px;
+  min-width: 150px;
 }
 
 .one {
-  align-items: center;
-  border: solid black;
+  display: flex;
   background: red;
-  flex-grow: 0;
-  text-align: center;
+  align-items: center;
+  text-align: start;
   color: #fff;
-  display: block;
-  padding: 7px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  flex-grow: 1;
+  text-wrap: nowrap;
 }
 
 .two {
-  align-items: center;
-  border: solid black;
   background: green;
-  flex-grow: 0;
+  align-items: center;
   text-align: center;
   color: #fff;
-  display: block;
-  padding: 7px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  display: flex;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  flex-grow: 1000;
+  text-wrap: nowrap;
 }
 
-.three {
-  border: solid black;
-  background: blue;
-}
-
-div h1{
+div h1 {
   text-decoration: none;
   text-align: start;
   color: #fff;
@@ -59,9 +58,10 @@ div h1{
   padding: 7px;
   padding-top: 10px;
   padding-bottom: 10px;
+  margin: 0px;
 }
 
-div h2{
+div h2 {
   text-decoration: none;
   text-align: start;
   color: #fff;
@@ -69,6 +69,7 @@ div h2{
   padding: 7px;
   padding-top: 10px;
   padding-bottom: 10px;
+  margin: 0px;
 }
 
 .header-content {
@@ -76,25 +77,21 @@ div h2{
 }
 
 nav {
-  display: flex;
   background: #333;
-  justify-content: space-between
-}
+  display: flex;
+  }
 
 nav ul {
   list-style-type: none;
-  display: flex;
   padding: 0;
-  }
+}
 
 nav a {
   text-decoration: none;
-  text-align: center;
+  /* text-align: start; */
   color: #fff;
   display: block;
-  padding: 7px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px;
 }
 
 nav li {
@@ -107,7 +104,7 @@ nav a:hover {
 
 a.gh {
   background: url(../assets/img/github-mark-white.png) no-repeat center;
-  background-size: 80%;
+  background-size: 70%;
 }
 
 .social a {
@@ -125,7 +122,6 @@ nav ul.social {
 @media screen and (min-width: 768px) {
   nav ul {
     display: flex;
-    justify-content: flex-end;
   }
 
   nav li {
@@ -134,6 +130,17 @@ nav ul.social {
 
   nav {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content:space-between;
+  }
+
+  .one {
+    height: 15px;
+    flex-grow: 0;
+  }
+
+  .two {
+    height: 15px;
+    flex-grow: 1;
   }
 }
