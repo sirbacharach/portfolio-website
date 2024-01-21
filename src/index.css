@@ -20,34 +20,32 @@
 .box {
   height: 15px;
   min-width: 150px;
-}
-
-.one {
-  display: flex;
-  background: red;
-  align-items: center;
-  text-align: start;
-  color: #fff;
   padding-left: 7px;
   padding-right: 7px;
   padding-top: 15px;
   padding-bottom: 15px;
+}
+
+.one {
+  display: flex;
+  background:  #003312;
+  align-items: center;
+  text-align: start;
+  color: #fff;
   flex-grow: 1;
   text-wrap: nowrap;
 }
 
 .two {
-  background: green;
+  background: #003312;
   align-items: center;
   text-align: center;
   color: #fff;
   display: flex;
-  padding-left: 7px;
-  padding-right: 7px;
-  padding-top: 15px;
-  padding-bottom: 15px;
   flex-grow: 1000;
   text-wrap: nowrap;
+  padding-top: 17.5px;
+  padding-bottom: 12.5px;
 }
 
 div h1 {
@@ -79,9 +77,12 @@ div h2 {
 nav {
   background: #333;
   display: flex;
+  flex-direction: row;
+  justify-content:space-between;
   }
 
 nav ul {
+  display: flex;
   list-style-type: none;
   padding: 0;
   margin: 0px;

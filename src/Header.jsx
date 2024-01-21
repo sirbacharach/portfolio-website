@@ -7,18 +7,16 @@ function Header() {
         </div>
         <div className="box two"><h2 className="header-content">Software Developer</h2></div>
       </div>
-      <div className="title-flex-container">
-    </div>
-    <nav>
+      <nav>
             <ul>
             <li><a href="">Home</a></li>
             <li><a href="">About</a></li>
             <li><a href="">Portfolio</a></li>
             <li><a href="">Contact</a></li>
             </ul>
-            {/* <ul className="social">
+            <ul className="social">
             <li><a href="" className="gh">GitHub</a></li>
-            </ul> */}
+            </ul>
         </nav>
     </div>
   );
