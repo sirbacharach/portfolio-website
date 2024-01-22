@@ -18,18 +18,17 @@
 }
 
 .box {
+  padding: 10px;
   height: 15px;
   min-width: 150px;
-  padding-left: 7px;
-  padding-right: 7px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  line-height: .7;
 }
 
 .one {
   display: flex;
+  height: fit-content;
   background:  #003312;
-  align-items: center;
+  align-items: end;
   text-align: start;
   color: #fff;
   flex-grow: 1;
@@ -37,15 +36,14 @@
 }
 
 .two {
+  height:inherit;
   background: #003312;
-  align-items: center;
+  align-items: end;
   text-align: center;
   color: #fff;
   display: flex;
   flex-grow: 1000;
   text-wrap: nowrap;
-  padding-top: 17.5px;
-  padding-bottom: 12.5px;
 }
 
 div h1 {
@@ -53,9 +51,6 @@ div h1 {
   text-align: start;
   color: #fff;
   display: block;
-  padding: 7px;
-  padding-top: 10px;
-  padding-bottom: 10px;
   margin: 0px;
 }
 
@@ -64,9 +59,6 @@ div h2 {
   text-align: start;
   color: #fff;
   display: block;
-  padding: 7px;
-  padding-top: 10px;
-  padding-bottom: 10px;
   margin: 0px;
 }
 
@@ -138,12 +130,8 @@ nav ul.social {
   }
 
   .one {
-    height: 15px;
-    flex-grow: 0;
   }
 
   .two {
-    height: 15px;
-    flex-grow: 1;
   }
 }
