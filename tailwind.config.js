@@ -6,7 +6,7 @@ export default {
       colors: {
         bgcolour: "#c0c0c0",
         darkgreen: "#003312",
-        navbutt: "#fff",
+        navbutt: "#555",
         navbuttpressed: "#555"
       }
     },

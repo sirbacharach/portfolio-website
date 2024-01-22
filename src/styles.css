@@ -548,42 +548,34 @@ video {
   display: inline-block;
 }
 
-.inline {
-  display: inline;
-}
-
 .flex {
   display: flex;
-}
-
-.inline-flex {
-  display: inline-flex;
 }
 
 .grow {
   flex-grow: 1;
 }
 
-.content-between {
-  align-content: space-between;
-}
-
 .items-baseline {
   align-items: baseline;
 }
 
-.border-2 {
-  border-width: 2px;
-}
-
-.bg-bgcolour {
-  --tw-bg-opacity: 1;
-  background-color: rgb(192 192 192 / var(--tw-bg-opacity));
+.justify-between {
+  justify-content: space-between;
 }
 
 .bg-darkgreen {
   --tw-bg-opacity: 1;
   background-color: rgb(0 51 18 / var(--tw-bg-opacity));
+}
+
+.bg-navbutt {
+  --tw-bg-opacity: 1;
+  background-color: rgb(85 85 85 / var(--tw-bg-opacity));
+}
+
+.p-3 {
+  padding: 0.75rem;
 }
 
 .py-3 {
