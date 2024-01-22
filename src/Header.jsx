@@ -1,20 +1,22 @@
 function Header() {
   return (
-    <div className="wrapper">
-      <div className="title-flex-container">
-        <div className="box one">
-          <h1 className="header-content">Rob Allen</h1>
+    <div className="bg-bgcolour">
+
+      <div className="flex items-baseline border-2 bg-darkgreen">
+        <div className="pl-3 pr-4 py-3">
+          <h1 className="text-white text-4xl font-bold align-end inline-block align-baseline">Rob Allen</h1>
         </div>
-        <div className="box two"><h2 className="header-content">Software Developer</h2></div>
+        <div className="pl-0 py-3 grow"><h2 className="text-white text-3xl font-semibold inline-block align-baseline">Software Developer</h2></div>
       </div>
-      <nav>
-            <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Portfolio</a></li>
-            <li><a href="">Contact</a></li>
+
+      <nav className="flex content-between">
+            <ul className="flex">
+            <li className="inline-block"><a href="">Home</a></li>
+            <li className="inline-block"><a href="">About</a></li>
+            <li className="inline-block"><a href="">Portfolio</a></li>
+            <li className="inline-block"><a href="">Contact</a></li>
             </ul>
-            <ul className="social">
+            <ul className="flex">
             <li><a href="" className="gh">GitHub</a></li>
             </ul>
         </nav>
