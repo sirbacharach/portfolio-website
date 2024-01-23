@@ -2,7 +2,7 @@ function About() {
   return (
     <div className="p-12 text-center">
       <h1 className="text-3xl font-bold pb-5">About</h1>
-      <div className="text-lg">
+      <div className="text-lg text-cyan-950">
       <p>
         After graduating from the Northcoders bootcamp, I am now looking to put
         my skills as a Full Stack Developer to use in the industry. I am located

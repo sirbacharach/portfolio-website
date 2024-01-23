@@ -1,6 +1,6 @@
 function Home() {
   return (
-    <div className="p-12">
+    <div className="p-12 text-cyan-950">
       <h1 className="text-3xl text-center font-bold pb-5">Home</h1>
       <p className="text-lg text-center">
         Welcome to my page,
