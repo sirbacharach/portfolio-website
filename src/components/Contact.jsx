@@ -1,9 +1,9 @@
-
-
-function Contact () {
-    return (
-        <div><h1>Contact</h1></div>
-    )
+function Contact() {
+  return (
+    <div className="p-12">
+      <h1 className="text-3xl text-center font-bold pb-5">Contact</h1>
+    </div>
+  );
 }
 
-export default Contact
+export default Contact;
