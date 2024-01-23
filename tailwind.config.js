@@ -10,7 +10,10 @@ export default {
         navbuttpressed: "#555"
       },
       fontFamily: {
-        heading: ["Barlow Condensed"]
+        main: ["Barlow Condensed"]
+      },
+      backgroundImage: {
+        "github-button": "url('/assets/img/github-mark-white.png')"
       }
     },
   },

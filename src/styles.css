@@ -571,12 +571,20 @@ video {
   flex-grow: 1;
 }
 
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
 .items-baseline{
   align-items: baseline;
 }
 
 .justify-between{
   justify-content: space-between;
+}
+
+.text-nowrap{
+  text-wrap: nowrap;
 }
 
 .bg-bgcolour{
@@ -599,8 +607,38 @@ video {
   background-color: rgb(85 85 85 / var(--tw-bg-opacity));
 }
 
+.bg-github-button{
+  background-image: url('/assets/img/github-mark-white.png');
+}
+
+.bg-contain{
+  background-size: contain;
+}
+
+.bg-center{
+  background-position: center;
+}
+
+.bg-no-repeat{
+  background-repeat: no-repeat;
+}
+
+.p-2{
+  padding: 0.5rem;
+}
+
 .p-3{
   padding: 0.75rem;
+}
+
+.px-0{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.px-0\.5{
+  padding-left: 0.125rem;
+  padding-right: 0.125rem;
 }
 
 .py-3{
@@ -624,18 +662,8 @@ video {
   vertical-align: baseline;
 }
 
-.font-heading{
+.font-main{
   font-family: Barlow Condensed;
-}
-
-.text-3xl{
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
-.text-4xl{
-  font-size: 2.25rem;
-  line-height: 2.5rem;
 }
 
 .text-5xl{
@@ -643,13 +671,8 @@ video {
   line-height: 1;
 }
 
-.text-xl{
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
-.font-bold{
-  font-weight: 700;
+.font-medium{
+  font-weight: 500;
 }
 
 .font-semibold{
@@ -659,6 +682,10 @@ video {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-opacity-0{
+  --tw-text-opacity: 0;
 }
 
 .drop-shadow-lg{
