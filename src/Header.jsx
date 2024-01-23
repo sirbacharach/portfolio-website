@@ -1,11 +1,11 @@
 function Header() {
   return (
-    <div class="bg-blue-500">
+    <div class="bg-blue-500 font-heading">
       <div className="flex items-baseline bg-darkgreen">
         <div className="pl-3 pr-4 py-3">
-          <h1 className="text-white text-4xl font-bold align-end inline-block align-baseline">Rob Allen</h1>
+          <h1 className="text-white text-5xl font-semibold align-end inline-block align-baseline font-heading">Rob Allen</h1>
         </div>
-        <div className="pl-0 py-3 grow"><h2 className="text-white text-3xl font-semibold inline-block align-baseline">Software Developer</h2></div>
+        <div className="pl-0 py-3 grow"><h2 className="text-white text-5xl font-semibold inline-block align-baseline">Software Developer</h2></div>
       </div>
 
       <nav className="flex justify-between drop-shadow-lg bg-navbutt">

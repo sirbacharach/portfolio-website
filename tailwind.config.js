@@ -8,6 +8,9 @@ export default {
         darkgreen: "#003312",
         navbutt: "#555",
         navbuttpressed: "#555"
+      },
+      fontFamily: {
+        heading: ["Barlow Condensed"]
       }
     },
   },
